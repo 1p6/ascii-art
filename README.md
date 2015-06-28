@@ -2,10 +2,6 @@ ascii-art
 =========
 Ascii-art is a dynamic ascii art generator made with coffeescript.
 
-Requirements
-------------
-* [Coffeescript](http://coffeescript.org/)
-
 How to use
 ----------
 ```coffeescript
@@ -32,6 +28,9 @@ _   _   _  _______  _____  _      _____
 
 Making your own font
 --------------------
+Requirements:
+* [Coffeescript](http://coffeescript.org/)
+
 To make your own font:
 * Step 1: Clone the [github repository](https://github.com/1p6/ascii-art/) into you own folder.
 * Step 2: Create a coffeescript file under `src/fonts` with the name of your font as it's name.
