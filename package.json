@@ -12,6 +12,10 @@
     "art",
     "generator"
   ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/1p6/ascii-art.git"
+  },
   "author": "1p6",
   "license": "ISC"
 }
