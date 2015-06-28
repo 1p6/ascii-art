@@ -1,0 +1,12 @@
+<textarea id="area"></textarea>
+<button onclick="convert();">Create!</button>
+<script>
+var area = document.querySelector('#area');
+
+function convert(){
+  var converted = area.value;
+  converted = converted.replace(/\n/g, "n");
+  converted = converted.replace(/\\/g, "\\\\");
+  area.value = converted;
+}
+</script>

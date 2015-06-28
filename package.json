@@ -1,0 +1,17 @@
+{
+  "name": "ascii-art",
+  "version": "1.0.0",
+  "description": "A dynamic ascii art generator written in coffeescript.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo Use 'cake test' instead.",
+    "prepublish": "cake build"
+  },
+  "keywords": [
+    "ascii",
+    "art",
+    "generator"
+  ],
+  "author": "1p6",
+  "license": "ISC"
+}
