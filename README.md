@@ -4,6 +4,7 @@ Ascii-art is a dynamic ascii art generator made with coffeescript.
 
 How to use
 ----------
+Install with `npm install git+https://github.com/1p6/ascii-art.git`
 ```coffeescript
 convert = require 'ascii-art'
 
