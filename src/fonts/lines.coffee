@@ -76,3 +76,6 @@ module.exports =
   '+': '       n   _   n _| |_ n|_   _|n  |_|  n       '
   '-': '         n         n _______ n|_______|n         n         '
   '=': '         n _______ n|_______|n _______ n|_______|n         '
+
+for s in 'qwertyuiopasdfghjklzxcvbnm'.split ''
+  module.exports[s] = module.exports[s.toUpperCase()]
