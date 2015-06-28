@@ -1,6 +1,6 @@
 {
   "name": "ascii-art",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A dynamic ascii art generator written in coffeescript.",
   "main": "lib/index.js",
   "scripts": {
@@ -12,9 +12,9 @@
     "art",
     "generator"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/1p6/ascii-art.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1p6/ascii-art.git"
   },
   "author": "1p6",
   "license": "ISC"
