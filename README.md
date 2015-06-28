@@ -48,4 +48,4 @@ Making a character
 
 Testing your font
 -----------------
-Go to the root directory and run `cake -f <Your font's name> test' at the root directory of the project.
+Go to the root directory and run `cake -f <Your font's name> test` at the root directory of the project.
