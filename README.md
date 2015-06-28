@@ -1,12 +1,12 @@
-ascii-art
+fonts.js
 =========
-Ascii-art is a dynamic ascii art generator made with coffeescript.
+fonts.js is an ascii art font framework written in coffeescript.
 
 How to use
 ----------
-Install with `npm install git+https://github.com/1p6/ascii-art.git`
+Install with `npm i fonts.js`
 ```coffeescript
-convert = require 'ascii-art'
+convert = require 'fonts.js'
 
 str = 'HELLO\nWORLD'
 console.log convert str, {font: 'lines'}
@@ -33,10 +33,10 @@ Requirements:
 * [Coffeescript](http://coffeescript.org/)
 
 To make your own font:
-* Step 1: Clone the [github repository](https://github.com/1p6/ascii-art/) into you own folder.
+* Step 1: Clone the [github repository](https://github.com/1p6/fonts.js/) into you own folder.
 * Step 2: Create a coffeescript file under `src/fonts` with the name of your font as it's name.
-* Step 3: Structure the file like the [default font](https://github.com/1p6/ascii-art/blob/master/src/fonts/lines.coffee). (Read the comments.)
-* Step 4: Use the [fontCreater html page](https://github.com/1p6/ascii-art/blob/master/fontCreater.html) to help create each character.(Read bellow).
+* Step 3: Structure the file like the [default font](https://github.com/1p6/fonts.js/blob/master/src/fonts/lines.coffee). (Read the comments.)
+* Step 4: Use the [fontCreater html page](https://github.com/1p6/fonts.js/blob/master/fontCreater.html) to help create each character.(Read bellow).
 * Step 5: (Optionaly) Make a pull request so I can add the font.(Please test your font before you make a pull request though!(See bellow))
 
 Making a character
@@ -48,4 +48,4 @@ Making a character
 
 Testing your font
 -----------------
-Go to the root directory and run the `cake` command.  Read the options listed.
+Go to the root directory and run `cake -f <Your font's name> test' at the root directory of the project.

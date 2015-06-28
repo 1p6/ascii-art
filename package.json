@@ -1,7 +1,7 @@
 {
-  "name": "ascii-art",
+  "name": "fonts.js",
   "version": "1.1.0",
-  "description": "A dynamic ascii art generator written in coffeescript.",
+  "description": "An ascii art font framework written in coffeescript.",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo Use 'cake test' instead.",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/1p6/ascii-art.git"
+    "url": "https://github.com/1p6/fonts.js.git"
   },
   "author": "1p6",
   "license": "ISC"
