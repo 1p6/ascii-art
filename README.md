@@ -1,16 +1,26 @@
 fonts.js
 =========
-fonts.js is an ascii art font framework written in coffeescript.
+[fonts.js](https://www.npmjs.com/package/fonts.js) is an ascii art font framework written in coffeescript.
 
 How to use
 ----------
 Install with `npm i fonts.js`
+
+You can use this library in both coffeescript, and javascript:
 ```coffeescript
 convert = require 'fonts.js'
 
 str = 'HELLO\nWORLD'
-console.log convert str, {font: 'lines'}
-###
+console.log convert str, {font: 'lines'} # Lines is the default font.
+```
+```javascript
+var convert = require('fonts.js');
+
+var str = 'HELLO\nWORLD'
+console.log(convert(str, {font: 'lines'})) // Lines is the default font.
+```
+```javascript
+/*
 Output (It looks better in a web page.):
 _    _  ______  _      _      _______
 | |  | ||  ____|| |    | |    |  ___  |
@@ -24,7 +34,7 @@ _   _   _  _______  _____  _      _____
 | | | | | || |   | ||    _|| |    | |   | |
 | |_| |_| || |___| || |\ \ | |___ | |__/ /
 |_________||_______||_| \_\|_____||_____/
-###
+*/
 ```
 
 Making your own font
