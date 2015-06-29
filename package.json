@@ -17,5 +17,8 @@
     "url": "https://github.com/1p6/fonts.js.git"
   },
   "author": "1p6",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.9.3"
+  }
 }
