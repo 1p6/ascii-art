@@ -1,6 +1,9 @@
 fonts.js
 =========
-[fonts.js](https://www.npmjs.com/package/fonts.js) is an ascii art font framework written in coffeescript.
+fonts.js is an ascii art font framework written in coffeescript.
+
+[![npm version][npm version]][npm link]
+[![npm downloads][npm image]][npm link]
 
 How to use
 ----------
@@ -59,3 +62,7 @@ Making a character
 Testing your font
 -----------------
 Go to the root directory and run `cake -f <Your font's name> test` at the root directory of the project.
+
+[npm image]: https://img.shields.io/npm/dm/localeval.svg
+[npm link]: https://www.npmjs.com/package/fonts.js
+[npm version]: https://img.shields.io/npm/v/npm.svg
