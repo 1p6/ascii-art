@@ -51,7 +51,8 @@ To make your own font:
 * Step 2: Create a coffeescript file under `src/fonts` with the name of your font as it's name.
 * Step 3: Structure the file like the [default font](https://github.com/1p6/fonts.js/blob/master/src/fonts/lines.coffee). (Read the comments.)
 * Step 4: Use the [fontCreater html page](https://github.com/1p6/fonts.js/blob/master/fontCreater.html) to help create each character.(Read bellow).
-* Step 5: (Optionaly) Make a pull request so I can add the font.(Please test your font before you make a pull request though!(See bellow))
+* Step 5: Add the name of your font to the font list in index.coffee
+* Step 6: (Optionaly) Make a pull request so I can add the font.(Please test your font before you make a pull request though!(See bellow))
 
 Making a character
 ------------------
@@ -60,9 +61,9 @@ Making a character
 * Step 2: Click the button.
 * Step 3: Put it in your font file.
 
-Testing your font
+Testing your font (or anything else)
 -----------------
-Go to the root directory and run `cake -f <Your font's name> test` at the root directory of the project.
+Go to the root directory of the project and run `npm test`
 
 [travis image]: https://img.shields.io/travis/1p6/fonts.js.svg
 [travis link]: https://travis-ci.org/1p6/fonts.js
