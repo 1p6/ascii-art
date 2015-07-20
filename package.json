@@ -1,6 +1,6 @@
 {
   "name": "fonts.js",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "An ascii art font framework written in coffeescript.",
   "main": "lib/index.js",
   "scripts": {
