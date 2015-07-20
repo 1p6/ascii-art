@@ -1,11 +1,3 @@
 language: node_js
 node_js:
-- node
-deploy:
-  provider: npm
-  email: aaapf12@gmail.com
-  api_key:
-    secure: OffzrtTWymqZywVRCbcTuUs6/2idgTLJFBS4MKl9XZVP8NJ+keeVfBODNpDXT+JXuaHjMReewSvyLU9QGmqoJpk95UE/pyPGCGzt/+3qps70fjFWSOeaeO858/Z9X4HqhsNJhVrb0GEboiFkUhxwl7KWaY9QS8BRQjl/V/L5d8M2uCqNBaTwLG19C8Dypi+yrSDMlCZycX3XLWIrmbLTFP+7Foc3KMLc/KhCfQbpsm33yY448HFhG1f2RL0jE53xXcFed0qJQ5VG5W3OMzUY0zp8WtNrczNlUOReLQsXcVopaUmQvG30awgsft2LguX8m/1ej4J9VgOKSVMWLmqUvLDdOIWk0DqswJgzRl9F+o9ukvnhpXDajwH/KRpFfc/yw+bVZVdwGM07qL0lwgj2gY7BNU9Drp3jC+uROX3lCe2AVl/4NwZR53iS8kjHe3T0MbOcl9aEr/gHI+bdGQcReFLGjMKp7APV8gipVJR+anc9iqQwBxLuy3G/QnwXNSHkNUcIvMCVMtQ0IJaNVLe2xz8VS/MN1be3U4+4gmLWwOnxNRmyUUZheOt07y/wIK5ZOAXu+x8GCLLGOf2XsFyRYJlHIxgjwlJYBxe5/2sQFUaBRrYEpQACNoNuyRJKbJTICI4ZOfCYCgXIPwUG8c8lJJwraEqI+KKfxQZ/wxuLg2o=
-  on:
-    tags: true
-    repo: 1p6/fonts.js
+- noded
