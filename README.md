@@ -4,6 +4,7 @@ fonts.js is an ascii art font framework written in coffeescript.
 
 [![npm version][npm version]][npm link]
 [![npm downloads][npm image]][npm link]
+[![travis build status][travis image]][travis link]
 
 How to use
 ----------
@@ -63,6 +64,8 @@ Testing your font
 -----------------
 Go to the root directory and run `cake -f <Your font's name> test` at the root directory of the project.
 
-[npm image]: https://img.shields.io/npm/dm/localeval.svg
+[travis image]: https://img.shields.io/travis/1p6/fonts.js.svg
+[travis link]: https://travis-ci.org/1p6/fonts.js
+[npm image]: https://img.shields.io/npm/dm/fonts.js.svg
 [npm link]: https://www.npmjs.com/package/fonts.js
-[npm version]: https://img.shields.io/npm/v/npm.svg
+[npm version]: https://img.shields.io/npm/v/fonts.js.svg
