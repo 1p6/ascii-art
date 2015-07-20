@@ -4,8 +4,9 @@
   "description": "An ascii art font framework written in coffeescript.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo Use 'cake test' instead.",
-    "prepublish": "cake build"
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "prepublish": "npm run build",
+    "build": "coffee -c -o lib src"
   },
   "keywords": [
     "ascii",
@@ -19,6 +20,8 @@
   "author": "1p6",
   "license": "ISC",
   "devDependencies": {
-    "coffee-script": "^1.9.3"
+    "coffee-script": "^1.9.3",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
   }
 }

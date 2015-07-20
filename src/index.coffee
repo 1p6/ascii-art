@@ -8,3 +8,8 @@ convertLine = (text, options) ->
 
 module.exports = (text = "ascii", options = {}) ->
   (convertLine s, options for s in text.split '\n').join '\n'
+
+# Add any other font names here.
+module.exports.fonts = [
+  'lines'
+]
